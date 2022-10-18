@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Graphe{
     private ArrayList<ArrayList<Couple<Integer,Integer>>> l;
     //liste adj : dans l.get(i) il y a tous les successeurs de i avec la capacité des arcs sortants
-    //par ex, si on a l'arc i->j de capacité c, alors dans la liste l.get(i) on trouvera le couple (j,c)
+    //par ex, si on  a l'arc i->j de capacité c, alors dans la liste l.get(i) on trouvera le couple (j,c)
 
 
     private ArrayList<ArrayList<Couple<Integer,Integer>>> pred; //liste adj : pred dans l.get(i) arcs j->i
